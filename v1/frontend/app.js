@@ -67,24 +67,3 @@ function deletarUsuario(id) {
       listarUsuarios();
     });
 }
-
-function atualizarSenha() {
-  const email = document.getElementById('emailSenha').value;       // Campo do email
-  const senhaAtual = document.getElementById('senhaAtual').value;  // Campo senha atual
-  const novaSenha = document.getElementById('novaSenha').value;    // Campo nova senha
-
-  fetch(`${API}/usuarios/senha`, {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, senhaAtual, novaSenha })
-  })
-    .then(res => {
-      if (!res.ok) throw new Error('Erro ao atualizar a senha');
-      return res.json();
-    })
-    .then(data => {
-      alert(data.mensagem || 'Senha atualizada com sucesso!');
-      // opcional: limpar campos ou redirecionar
-    })
-    .catch(err => alert(err.message));
-}
