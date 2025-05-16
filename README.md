@@ -76,46 +76,46 @@ JWT_EXPIRATION=1h
 
 6.1 - Exemplo 1 - Login com sucesso
 
-Request:
+Request:  
 
-{
-    "username": "william.caixa",
-    "password": "senha123"
-}
+{  
+    "username": "william.caixa",  
+    "password": "senha123"  
+}  
 
 Response:
 
-{
-    "message": "Login bem-sucedido!",
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-}
+{  
+    "message": "Login bem-sucedido!",  
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."  
+}  
 
 ------------------------------------------------
-6.2 - Exemplo 2 - Usuário não cadastrado
+6.2 - Exemplo 2 - Usuário não cadastrado  
 
-Request:
+Request:  
 
-{
-    "username": "nathalia.adm",
-    "password": "senha13"
-}
+{  
+    "username": "nathalia.adm",  
+    "password": "senha13"  
+}  
 
-Response:
-{
-    "message": "Usuário ou senha incorretos"
-}
+Response:  
+{  
+    "message": "Usuário ou senha incorretos"  
+}  
 
 ------------------------------------------------
-6.3 - Exemplo 3 - Campo ausente
+6.3 - Exemplo 3 - Campo ausente  
 
-Request:
+Request:  
 
-{
-    "username": "william"
-}
+{  
+    "username": "william"  
+}  
 
-Response:
-{
-    "message": "O campo 'password' é obrigatório."
-}
+Response:  
+{  
+    "message": "O campo 'password' é obrigatório."  
+}  
 
