@@ -88,6 +88,7 @@ Response:
     "message": "Login bem-sucedido!",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
+
 ------------------------------------------------
 6.2 - Exemplo 2 - Usuário não cadastrado
 Request:
@@ -101,6 +102,7 @@ Response:
 {
     "message": "Usuário ou senha incorretos"
 }
+
 ------------------------------------------------
 6.3 - Exemplo 3 - Campo ausente
 Request:
