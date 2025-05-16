@@ -77,6 +77,7 @@ JWT_EXPIRATION=1h
 6.1 - Exemplo 1 - Login com sucesso
 
 Request:
+
 {
     "username": "william.caixa",
     "password": "senha123"
@@ -91,6 +92,7 @@ Response:
 
 ------------------------------------------------
 6.2 - Exemplo 2 - Usuário não cadastrado
+
 Request:
 
 {
@@ -105,7 +107,9 @@ Response:
 
 ------------------------------------------------
 6.3 - Exemplo 3 - Campo ausente
+
 Request:
+
 {
     "username": "william"
 }
