@@ -79,15 +79,15 @@ JWT_EXPIRATION=1h
 Request:  
 
 {  
-    "username": "william.caixa",  
-    "password": "senha123"  
+  "username": "william.caixa",  
+  "password": "senha123"  
 }  
 
 Response:
 
 {  
-    "message": "Login bem-sucedido!",  
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."  
+  "message": "Login bem-sucedido!",  
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."  
 }  
 
 ------------------------------------------------
@@ -96,13 +96,13 @@ Response:
 Request:  
 
 {  
-    "username": "nathalia.adm",  
-    "password": "senha13"  
+  "username": "nathalia.adm",  
+  "password": "senha13"  
 }  
 
 Response:  
 {  
-    "message": "Usuário ou senha incorretos"  
+  "message": "Usuário ou senha incorretos"  
 }  
 
 ------------------------------------------------
@@ -111,11 +111,11 @@ Response:
 Request:  
 
 {  
-    "username": "william"  
+  "username": "william"  
 }  
 
 Response:  
 {  
-    "message": "O campo 'password' é obrigatório."  
+  "message": "O campo 'password' é obrigatório."  
 }  
 
