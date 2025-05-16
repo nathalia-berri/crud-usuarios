@@ -119,3 +119,8 @@ Response:
   "message": "O campo 'password' é obrigatório."  
 }  
 
+------------------------------------------------
+
+Documentação: https://docs.google.com/document/d/1BnJ_oNk-gndAYurG56RxWAtoZrx1hjOVTpGsLRtBzic/edit?usp=sharing
+
+
